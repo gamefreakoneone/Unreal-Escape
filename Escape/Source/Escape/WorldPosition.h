@@ -8,7 +8,7 @@
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class ESCAPE_API UWorldPosition : public UActorComponent
+class ESCAPE_API UWorldPosition : public UActorComponent //inheriting
 {
 	GENERATED_BODY()
 
